@@ -1,0 +1,11 @@
+# ChangeLog
+
+## 2020.09.26
+
+* initial build
+* `gcc`, `msys2` used
+
+BACKWARDS INCOMPATIBILITIES / NOTES:
+IMPROVEMENTS:
+NEW FEATURES:
+BUG FIXES:
