@@ -3,7 +3,7 @@
 
 ## 2023.05.31
 * Add redis 7.0.11 build with TLS support
-* When using `--tls` argument, `--cacert` should be used, too
+* When using `--tls` argument, `--cacert` should be used, too. Or use **SSL_CERT_FILE** environment variable
 ```bash
 redis-cli -p $port --verbose --no-auth-warning -a "$secret" --tls --cacert cacert.pem -h $redis_server_IP PING
 ```
